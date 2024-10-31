@@ -1,0 +1,55 @@
+body {
+    background-color: darkslategray;
+    color: white;
+}
+
+.navbar-brand img {
+    width: 70px;
+}
+
+#header_img {
+    background-image: url(Images/fabrizio-lunardi-ay2IIp9dubQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#Destinations_img {
+    background-image: url(Images/luca-micheli-r9RW20TrQ0Y-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#People_img {
+    background-image: url(Images/gabriella-clare-marino-gWqyBUOczYQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#header{
+    width: 60%;
+}
+
+#header2_img {
+    background-image: url(Images/kalen-emsley-_LuLiJc1cdo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#header_image, p, h3 { 
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    #panel_bg {
+        width: 50%;
+    }
+}
+
+#panel_bg {
+    background-color: black;
+    opacity: 75%;
+}
